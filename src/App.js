@@ -1,15 +1,15 @@
 import {Route, Switch, Link} from 'react-router-dom'
 import Xodimlar from "./Componet/Xodimlar/Xodimlar";
 import Lavozim from "./Componet/Lavozim/Lavozim";
-import IlmiyDaraja from "./Componet/IlmiyDarajalar/IlmiyDaraja";
+import IlmiyDaraja from "./Componet/daraja/Daraja";
 
 function App() {
     return (
         <div className="container mt-4 ">
-            <Link to="/Xodimlar">
+            <Link  to="/Xodimlar">
                 <button className={' btn btn-dark '}>Xodimlar</button>
             </Link>
-            <Link to="/Lavozim">
+            <Link className={'mx-3'} to="/Lavozim">
                 <button className={' btn btn-dark '}>Lavozim</button>
             </Link>
             <Link to="/IlmiyDaraja">
